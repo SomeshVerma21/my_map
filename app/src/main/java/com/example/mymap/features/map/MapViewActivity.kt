@@ -39,11 +39,11 @@ class MapViewActivity : ComponentActivity() {
                         content = {
                             MapView(mapViewModel)
                         },
-                        floatingActionButton = {
-                            FloatingActionButton(onClick = { }) {
-                                Icon(Icons.Default.LocationOn, contentDescription = "gps icon")
-                            }
-                        }
+//                        floatingActionButton = {
+//                            FloatingActionButton(onClick = { }) {
+//                                Icon(Icons.Default.LocationOn, contentDescription = "gps icon")
+//                            }
+//                        }
                     )
                 }
             }
